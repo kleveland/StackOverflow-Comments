@@ -1,0 +1,29 @@
+@import './stylesheets//variables.scss';
+
+.App {
+  background-color: $light;
+}
+
+.App-header {
+  background-color: $dark;
+  text-align: center;
+  height: 150px;
+  padding: 20px;
+  color: $light;
+  h2 {
+    padding-top: 2rem;
+  }
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.row.remove-margins {
+  margin: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

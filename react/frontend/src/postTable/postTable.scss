@@ -1,0 +1,25 @@
+@import './../stylesheets/variables.scss';
+
+.tableStyling {
+    margin-top: 2rem;
+    .table {
+        color: $dark;
+        background-color: white;
+        thead tr th {
+            border: none;
+            border-bottom: 4px solid $dark;
+            color: $light;
+            background-color: $red;
+        }
+    }
+}
+
+.manualPage {
+    margin-right: 15px;
+    width: 200px;
+}
+
+.fillPadding {
+    min-width: 200px;
+    margin: 0 15px 0 15px;
+}
